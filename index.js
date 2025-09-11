@@ -9,7 +9,7 @@ function debounce(func, delay) {
 }
 
 function performSearch() {
-  const query = document.getElementById("searhInput").value;
+  const query = document.getElementById("searchInput").value;
   document.getElementById("searchResults").textContent = `${query}`;
 }
 
