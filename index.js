@@ -1,6 +1,10 @@
-
-
-
+function debounce(func, delay) {
+  let timeoutId;
+  return function() {
+    const args = arguments;
+    const context = this;
+  }
+}
 
 
 
