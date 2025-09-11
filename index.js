@@ -12,3 +12,7 @@ function performSearch() {
   const query = document.getElementById("searhInput").ariaValueMax;
   document.getElementById("searchResults").textContent = `${query}`;
 }
+
+document
+.getElementById("searchInput")
+.addEventListener("input", debounce(performSearch, 500));
