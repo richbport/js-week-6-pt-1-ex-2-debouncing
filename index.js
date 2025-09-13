@@ -13,7 +13,7 @@ function debounce(func, delay) {
   return function () {
     const args = arguments;
     const context = this;
-
+    clearTimeout(timeoutID);
     timeoutID = setTimeout(() => func.apply(context, args), delay)
   }
 }
