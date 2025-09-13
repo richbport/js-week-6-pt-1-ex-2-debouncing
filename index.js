@@ -8,9 +8,13 @@ function debounce(func, delay) {
   }
 }
 
+// function performSearch() {
+//   const query = document.getElementById("searchInput").value;
+//   document.getElementById("searchResults").textContent = `${query}`;
+// }
+
 function performSearch() {
   const query = document.getElementById("searchInput").value;
-  document.getElementById("searchResults").textContent = `${query}`;
 }
 
 document
